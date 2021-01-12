@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "Luiz Gustavo Amorim <lgdeveloper@outlook.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
   "devDependencies": {
     "@types/jest": "^26.0.20",
     "@types/node": "^14.14.20",
