@@ -5,7 +5,7 @@
   "author": "Luiz Gustavo Amorim <lgdeveloper@outlook.com>",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server --open",
+    "start": "webpack serve --open --config ./webpack.config.js",
     "test": "jest --passWithNoTests --no-cache --runInBand",
     "test:watch": "yarn test -- --watch",
     "test:staged": "yarn test -- --findRelatedTests",
